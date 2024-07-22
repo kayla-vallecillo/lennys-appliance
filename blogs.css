@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body {
+  background-image: linear-gradient(white, #f4f4f4);
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 210;
+  font-style: normal;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 27px;
+  margin-left: 15%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.active {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+
+.navbaricon {
+  width: 250px;
+  position: relative;
+
+}
+
+/* Navbar styled by referring to W3Schools guide: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+.navicon {
+  margin: 0px;
+  background-color: white;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+.verticalcenter {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+ul.topnav li {
+  float: left;
+  margin-right: 120px;
+}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  font-weight: bold;
+  font-stretch: normal;
+}
+
+@media screen and (max-width: 600px) {
+
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+    margin: 0px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .row1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .openingblurb {
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: inherit;
+    align-items: center;
+    padding: 0;
+  }
+
+  .rectangle {
+    flex-wrap: wrap;
+    height: 1000px;
+    padding-bottom: 300px;
+  }
+
+}
+
+.rectangle {
+  height: 500px;
+  width: 90%;
+  margin-left: 5%;
+  background-color: #f1f1f1;
+}
+
+footer {
+  background: #9AC41F;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.footerstyle {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.fa {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.blogtext {
+    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 30px;
+}
+
+.centerimg {
+    width: 70%;
+    margin-left:15%;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}

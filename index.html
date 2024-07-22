@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Website developed by Kayla Vallecillo-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lenny's Appliance</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="img/homepage/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/74066fc2e5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <ul class="topnav">
+        <li class="navicon"><a href="index.html"><img class="navbaricon" src="img/navbarlogo.png"></a></li>
+        <li class="verticalcenter active"><a href="index.html">Home</a></li>
+        <li class="verticalcenter"><a href="products.html">Products</a></li>
+        <li class="verticalcenter"><a href="services.html">Services</a></li>
+        <li class="verticalcenter"><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="rectangle row">
+        <img class="openingdot" src="img/appliancedot.png">
+        <div class="column openingblurb">
+            <h1>Affordable kitchen & home appliances.</h1>
+            <p class="mottos">Service you can <b>trust</b>.</p>
+            <p class="mottos">Live <b>comfortably</b> with modern appliances.</p>
+            <a href="products.html">
+                <div class="button">
+                    <p class="buttontext">See Our Products and Services</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row1">
+        <div class="sideblurb">
+            <h1>What is Lenny's Appliance?</h1>
+            <p class="sidetxt"><b>Lenny’s Appliance</b> is a small business located in Camden, New Jersey. We offer a
+                variety of kitchen and
+                home appliances for <b>affordable prices</b>.</p>
+        </div>
+        <div>
+            <!--Image from Canva Premium Subscription-->
+            <img class="sideimg" src="img/whatdot.png">
+        </div>
+    </div>
+
+    <div class="row1">
+        <div class="sideblurb">
+            <h1>Visit Us</h1>
+            <p class="sidetxt">We are located at <a class="link"
+                    href="https://www.google.com/maps/dir//2602+Federal+St,+Camden,+NJ+08105/@39.9459342,-75.1710054,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c6c93468df6175:0x4634063175a733a1!2m2!1d-75.0886045!2d39.9459634?entry=ttu">2602
+                    Federal St, Camden, NJ 08105</a>. Visit us <b>Monday through Saturday from
+                    10am to 6pm</b>.</p>
+        </div>
+        <div>
+            <!--Image from Canva Premium Subscription-->
+            <img class="sideimg2" src="img/visitdot.png">
+        </div>
+    </div>
+
+    <div class="centertext">
+        <h1>Tips for Styling & Shopping Appliances</h1>
+    </div>
+
+    <!--Image Carousel Referenced from CodePen: https://codepen.io/tutsplus/pen/MWZwrGJ-->
+    <!--All images featured on the carousel sourced from Canva Premium.-->
+
+    <div>
+
+        <div class="carousel-container" dir="ltr">
+            <div class="carousel-slide"><a href="blog1.html"><img class="carousel-img" src="img/blueprint.png"></a>Appliance Layouts</div>
+            <div class="carousel-slide"><a href="blog2.html"><img class="carousel-img" src="img/organization.png"></a>Building Organized Spaces</div>
+            <div class="carousel-slide"><a href="blog3.html"><img class="carousel-img" src="img/101.png"></a>Kitchen Appliances 101</div>
+            <div class="carousel-slide"><a href="blog4.html"><img class="carousel-img" src="img/1012.png"></a>Home Appliances 101</div>
+            <div class="carousel-slide"><a href="products.html"><img class="carousel-img" src="img/rightapp.png"></a>Choosing The Right Appliances</div>
+            <div class="carousel-slide"><a href="blog6.html"><img class="carousel-img" src="img/measure.png"></a>Measuring Your Fridge</div>
+            <div class="carousel-slide"><a href="blog7.html"><img class="carousel-img" src="img/energy.png"></a>Energy Efficiency Guide</div>
+        </div>
+
+        <div class="row center">
+
+            <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
+                &#8249;
+            </button>
+
+            <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
+                &#8250;
+            </button>
+        </div>
+
+    </div>
+
+    <div class="centertext">
+        <h1>Featured Appliance Brands</h1>
+    </div>
+
+    <div class="row">
+        <img alt="General Electric" class="featuredimg" src="img/ge.png">
+        <img alt="Whirlpool" class="featuredimg" src="img/whirlpool.png">
+        <img alt="Samsung" class="featuredimg" src="img/samsung.png">
+        <img alt="KitchenAid" class="featuredimg" src="img/kitchenaid.png">
+        <img alt="Kenmore" class="featuredimg" src="img/kenmore.png">
+        <img alt="Bosch" class="featuredimg" src="img/bosch.png">
+    </div>
+
+    <div class="sideimg"></div>
+
+    <footer>
+        <p class="footerstyle"> Lenny's Appliance, All Rights Reserved. </p>
+        <a href="https://www.instagram.com/lennysappliance/" class="fa fa-instagram"></a>
+        <a href="mailto:lennysappliance@gmail.com" class="fa fa-envelope"></a>
+        <a href="tel:856-203-7338"><i style="color: white; padding-left: 10px;" class="fa-solid fa-phone"></i></a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
