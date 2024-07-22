@@ -105,10 +105,11 @@ ul.topnav li a:hover:not(.active) {
     }
 
     .sidebyside {
+        flex-wrap: wrap;
+        flex-direction: column;
         grid-column: 1 / -1;
         grid-gap: 24px;
         display: grid;
-        grid-template-columns: 10% 80%;
         justify-content: center;
     }
 

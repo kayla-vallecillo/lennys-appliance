@@ -84,32 +84,21 @@ ul.topnav li a:hover:not(.active) {
     }
 
     .row {
-        flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
         grid-column: 1 / -1;
         grid-gap: 24px;
         display: grid;
         justify-content: center;
-    }
 
-    .rectangle {
-        flex-wrap: wrap;
-        flex-direction: column;
-        grid-column: 1 / -1;
-        grid-gap: 24px;
-        display: grid;
-        justify-content: center;
-    }
-
-    .sidetext {
-        max-width: 100%;
     }
 
     .sideimg {
         width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin:0;
+    }
+
+    .sidetext {
+        max-width: 100%;
     }
 
 }
@@ -153,15 +142,16 @@ footer {
 .row {
     display: flex;
     flex-direction: row;
-    margin: auto;
-    width: 90%;
-    margin-left: 5%;
     justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
 }
 
 .sideimg {
     width: 45%;
     margin: 2.5%;
+    align-items: center;
     text-align: center;
 }
 

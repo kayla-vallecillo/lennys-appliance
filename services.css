@@ -127,6 +127,7 @@ ul.topnav li a:hover:not(.active) {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -178,6 +179,7 @@ footer {
 }
 
 .sidetext {
-    width: 40%;
     margin-left: 5%;
+    width: 50%;
+    margin-bottom: 20px;
 }
