@@ -204,11 +204,10 @@ footer {
 }
 
 .rightimg {
-    width: 40%;
+    max-width: 40%;
     margin-left: 5%;
-    height:fit-content;
-    margin-top: -50px;
     aspect-ratio: 1;
+    height: auto;
 }
 
 .sidebyside {
