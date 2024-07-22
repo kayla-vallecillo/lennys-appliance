@@ -208,7 +208,7 @@ footer {
     margin-left: 5%;
     height:fit-content;
     margin-top: -50px;
-    height:fit-content;
+    aspect-ratio: 1;
 }
 
 .sidebyside {
