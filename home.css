@@ -97,6 +97,9 @@ ul.topnav li a:hover:not(.active) {
     flex-shrink: inherit;
     align-items: center;
     padding: 0;
+    margin-right:5%;
+    margin-left:5%;
+    width:90%;
   }
 
   .openingdot {
@@ -108,10 +111,6 @@ ul.topnav li a:hover:not(.active) {
     flex-wrap: wrap;
     height: 1000px;
     padding-bottom: 300px;
-  }
-
-  .mottos {
-    margin: 0;
   }
 
   .sideimg {
@@ -189,8 +188,6 @@ footer {
   vertical-align: middle;
   justify-content: center;
   align-items: center;
-  margin-left: 10%;
-
 }
 
 .mottos {
